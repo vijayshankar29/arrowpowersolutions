@@ -1,2 +1,2 @@
 # arrowpowersolutions
-This is the official website of Arrow Power Solutions - a Solar based products service providers in Coimbatore.
+This is the official website of Arrow Power Solutions - service providers for Solar based products
