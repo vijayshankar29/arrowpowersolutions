@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    
+    
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all .2s linear;
+        }
+
+        body{
+            background-color: #333;
+        }
+
+        .gallery{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .gallery a{
+            height:200px;
+            width: 300px;
+            margin: 20px;
+            border: 5px;
+            overflow: hidden;
+            box-shadow: 0 3px 5px #000;
+        }
+
+        .gallery a img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        .gallery a img:hover{
+            transform:scale(1.4)
+        }
+
+        h1{
+            font-size: 50px;
+            margin-top: 10px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <a href="Gallery\1.jpg">
+            <img src="Gallery\1.jpg" alt="">
+        </a>
+        <a href="Gallery\2.jpg">
+            <img src="Gallery\2.jpg" alt="">
+        </a>
+        <a href="Gallery\3.jpg">
+            <img src="Gallery\3.jpg" alt="">
+        </a>
+        <a href="Gallery\4.jpg">
+            <img src="Gallery\4.jpg" alt="">
+        </a>
+        <a href="Gallery\5.jpg">
+            <img src="Gallery\5.jpg" alt="">
+        </a>
+        <a href="Gallery\6.jpg">
+            <img src="Gallery\6.jpg" alt="">
+        </a>
+        <a href="Gallery\7.jpg">
+            <img src="Gallery\7.jpg" alt="">
+        </a>
+        <a href="Gallery\8.jpg">
+            <img src="Gallery\8.jpg" alt="">
+        </a>
+        <a href="Gallery\9.jpg">
+            <img src="Gallery\9.jpg" alt="">
+        </a>
+        <a href="Gallery\10.jpg">
+            <img src="Gallery\10.jpg" alt="">
+        </a>
+        <a href="Gallery\11.jpg">
+            <img src="Gallery\11.jpg" alt="">
+        </a>
+        <a href="Gallery\12.jpg">
+            <img src="Gallery\12.jpg" alt="">
+        </a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+    ></script>
+
+    <script>
+    lightGallery(document.querySelector('.gallery'));
+    </script>
+
+
+</body>
+</html>
